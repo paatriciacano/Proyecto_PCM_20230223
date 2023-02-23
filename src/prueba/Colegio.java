@@ -2,20 +2,20 @@ package prueba;
 
 public class Colegio {
 
-	private String nombre;
+	private String nombreColegio;
 	private int numeroAlumnos;
 
 	public Colegio(String nombre, int numeroAlumnos) {
-		this.nombre = nombre;
+		this.nombreColegio = nombre;
 		this.numeroAlumnos = numeroAlumnos;
 	}
 
 	public String getNombre() {
-		return nombre;
+		return nombreColegio;
 	}
 
 	public void setNombre(String nombre) {
-		this.nombre = nombre;
+		this.nombreColegio = nombre;
 	}
 
 	public int getNumeroAlumnos() {
